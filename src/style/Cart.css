@@ -1,0 +1,75 @@
+.cart-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 25px 10%;
+}
+
+.cart-container-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.cart-container-empty>* {
+    margin: 50px 10px;
+}
+
+.cart-container-empty a {
+    color: #d05cd0;
+}
+.cart-container-empty a:hover {
+    filter:invert(100%)
+}
+
+
+.cart-card {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    height: 200px;
+    background-color: rgba(255, 131, 93, 0.45);
+    border-radius: 10px;
+    box-shadow: 0 0 18px 1px rgba(0,0,0,0.75);
+}
+
+.cart-card img {
+    flex: 0 0 auto;
+    width: 25%;
+    border-radius: 10px  0  0 10px;
+}
+
+.cart-card h2 {
+    margin: 0 30px;
+}
+
+.cart-card>div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-card button {
+    font-size: 40px;
+    background-color: #5c7d80;
+    color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+    border-radius: 0 10px 10px 0;
+}
+
+.cart-card button:hover,.market-card a:hover {
+    filter:invert(100%)
+}
+.cart-card button:active {
+    transform: scale(0.95);
+    outline:none;
+}

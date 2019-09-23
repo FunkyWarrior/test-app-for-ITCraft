@@ -1,0 +1,6 @@
+export const LOGIN_USER = "LOGIN_USER";
+export const CLEAR_USER = "CLEAR_USER";
+
+export const CLEAR_CART = "CLEAR_CART";
+export const ADD_PRODUCT_TO_CART = "ADD_PRODUCT_TO_CART";
+export const DELETE_PRODUCT_FROM_CART = "DELETE_PRODUCT_FROM_CART";
